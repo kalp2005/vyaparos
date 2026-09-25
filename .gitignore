@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testing & Coverage
+/coverage
+*.lcov
+*.log
+
+# Next.js Build Output
+.next/
+/.next/
+/out/
+/build
+
+# Production Artifacts
+/dist
+
+# Environment Variables & Secrets (CRITICAL)
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+*.key
+*serviceAccount*.json
+firebase-key*.json
+
+# Local SQLite / Temporary Databases
+*.db
+*.db-journal
+*.sqlite
+*.sqlite-journal
+/dev.db
+
+# TypeScript Cache
+*.tsbuildinfo
+next-env.d.ts
+
+# OS Files
+.DS_Store
+*.pem
+Thumbs.db
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
